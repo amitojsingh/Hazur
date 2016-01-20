@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+id: 1
+Sentence: awid scu jugwid scu]
+Translation: God is everywher 
+Transliteration: ik onkaar sat naam
+# column: value
+#
+two: 
+id: 2
+Sentence: hy Bi cu nwnk hosl B
+Translation: true here and now O Nanak 
+Transliteration: hai B sach naanak hose bhee sach
+#  column: value

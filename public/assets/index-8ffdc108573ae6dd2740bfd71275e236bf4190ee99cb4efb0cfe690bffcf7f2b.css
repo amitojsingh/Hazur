@@ -1,0 +1,33 @@
+/* line 21, /usr/local/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, /home/amitoj/myapp/app/assets/stylesheets/index.scss */
+body {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 8.47458%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+  background-color: #3498db;
+}
+/* line 12, /usr/local/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 17, /home/amitoj/myapp/app/assets/stylesheets/index.scss */
+.image {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  background-image: url(/images/6H.JPG);
+}

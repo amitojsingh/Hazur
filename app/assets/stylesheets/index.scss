@@ -1,0 +1,82 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Roboto+Slab|PT+Sans+Narrow|Abel);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+.wrapper
+{
+max-width:900px;
+margin:auto;
+}
+
+.container
+{
+margin:10px;
+padding:10px;
+background-color:#fff;
+
+/* -moz-box-shadow:    inset 0 0 10px #bdc3c7;
+   -webkit-box-shadow: inset 0 0 10px #bdc3c7;
+   box-shadow:         inset 0 0 10px #bdc3c7;*/
+p
+{
+margin:10px;
+text-align:center;
+}
+}
+
+p.tuk{
+font-family:AmrLipiLight;
+font-size:40px;
+//font-family:Gurvetica 53 Medium Light;
+}
+
+p.sentence{
+font-family: "Abel",sans-serif;
+font-size:20px;
+}
+
+.content{
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.search{
+border:none;
+padding:10px 250px 10px 10px;
+}
+.search:focus {
+//	border: 2px solid #47a2df;
+box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 10px 250px 10px 10px;
+//  margin: 5px 1px 3px 0px;
+ // border: 1px solid rgba(81, 203, 238, 1);
+}
+
+h1{
+text-align:center;
+color:#fff;
+font-size:50px;
+margin:auto;
+font-family: 'Cinzel', serif;
+}
+.tagline
+{
+text-align: center;
+color:#ecf0f1;
+margin:auto;
+font-family: 'Lora', serif;
+margin-bottom:10px;
+}
+button{
+background-color:#fff;
+border:none;
+padding-bottom:4px;
+font-size:25px;
+position:absolute;
+outline:none;
+color:#3498DB;
+}

@@ -1,0 +1,8 @@
+<div class=content>
+<h1>Hazur</h1>
+<p class="tagline">"Let the Almighty answer"</p> 
+<%= form_tag("show",:method=>"get",:class=>"search-form") do %>
+<%= text_field_tag :search, params[:search], placeholder: 'Write here', class: 'search'%> 
+<button type=submit class='flaticon-magnifier13'></button>
+
+<% end %>

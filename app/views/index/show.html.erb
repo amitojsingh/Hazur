@@ -1,0 +1,10 @@
+<div class="wrapper">
+<%= @results.each do |result| %>
+<div class="container">
+<p class="tuk">
+<%= result.Sentence %></p>
+<p class="sentence"><%= result.Translation %></p>
+<!--<p class="transliration"><%= result.Transliteration %></p>-->
+</div>
+<% end %>
+</div>
