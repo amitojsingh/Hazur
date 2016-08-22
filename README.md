@@ -1,8 +1,9 @@
 #Hazur
+**Introduction**
 *What is happiness?
 How can I stay happy?
 what is love?
-How can i free of all sufferings?**italic*
+How can i free of all sufferings?*
 
 Life is full of these type of questions at every stage of life we face a new question but very few of us get answers and rest of us like me spend our whole life in finding answers and at the end we still not get the proper answer. We starts with a questions and end with a new question at various steps we conqur a dillema What is right? and what is so called right?, What to do and What not to do. What give us relief? and what gives us pain? Difference between love and attachment? 
 
