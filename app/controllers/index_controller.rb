@@ -3,6 +3,9 @@ class IndexController < ApplicationController
   end
 
   def show
-@results= Jap.search(params[:search])
+@str= RegWord.new.search(params[:search])
+puts "#{@str}"
+@results=Jap.query_find(@str)
+puts "#{@results}"
   end
 end

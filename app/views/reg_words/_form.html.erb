@@ -1,0 +1,21 @@
+<%= form_for(@reg_word) do |f| %>
+  <% if @reg_word.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@reg_word.errors.count, "error") %> prohibited this reg_word from being saved:</h2>
+
+      <ul>
+      <% @reg_word.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :words %><br>
+    <%= f.text_field :words %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

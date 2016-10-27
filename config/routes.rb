@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reg_words
   get 'index/search'
 
   get 'index/show'
