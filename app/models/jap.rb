@@ -7,7 +7,7 @@ def self.query_find(find_word)
 	@j=0 
 	find_word.each do |word|
 		puts "#{word}"
-		@s[@i]=word.join("%' OR Translation LIKE '%")
+		@s[@i]=word.join("\s%' OR Translation LIKE'%\s")
 		@i=@i+1
 	end
 
@@ -15,11 +15,11 @@ def self.query_find(find_word)
 		@s=@s.join()
 	else
 		puts "aah chal payi oye"
-		@s=@s.join(" %' AND Translation LIKE'% ")
+		@s=@s.join("\s%' AND Translation LIKE '%\s")
 		puts "#{@s}"
 	end
 
-	where("Translation LIKE '% "+" #{@s} "+" %'")  #This will search in translation 
+	where("Translation LIKE '%"+"\s#{@s}\s"+"%'")  #This will search in translation 
 #@query[@n]=query.split(" ")
 #puts "#@query"
 #for @i in 0..n do 
