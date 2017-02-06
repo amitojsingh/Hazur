@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'index/search'
 
   get 'index/show'
-root :to => 'index#index'
+root :to => 'index#search'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

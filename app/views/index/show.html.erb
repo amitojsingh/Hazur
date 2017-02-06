@@ -4,11 +4,9 @@
 <p class="tuk">
 <%= result.Sentence %></p>
 <p class="sentence">
-<% @str.each do |word|%>
-	<%=highlight(result.Translation, word)%>
-<% end %>
+	<%=highlight(result.Translation,params[:search])%>
 </p>
-	<!--<p class="transliration"><%=result.Transliteration %></p>-->
+<p class="transliration"><%=result.Transliteration %></p>
 </div>
 <% end %>
 </div>
